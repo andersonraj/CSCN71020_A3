@@ -1,7 +1,7 @@
 
 #include "pch.h"
 #include "CppUnitTest.h"  // Include the MSTest library
-#include "C:\Users\ander\Desktop\Conestoga\CSCN71020\Assignment3\Assignment3\Project1/game.c"
+#include "../Project1/game.c""
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 

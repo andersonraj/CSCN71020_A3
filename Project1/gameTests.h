@@ -1,4 +1,4 @@
-#pragma once
+// gameTests.h
 #include <assert.h>
 #include <string.h>
 #include "game.c"
@@ -47,9 +47,9 @@ void test_scissors_vs_paper() {
 }
 
 void test_draw_cases() {
-    assert(strcmp(rps_game("Rock", "Rock"), "Draw") == 0);  // Expect Draw
-    assert(strcmp(rps_game("Paper", "Paper"), "Draw") == 0);  // Expect Draw
-    assert(strcmp(rps_game("Scissors", "Scissors"), "Draw") == 0);  // Expect Draw
+    assert(strcmp(rps_game("Rock", "Rock"), "Draw") == 0);       // Expect Draw
+    assert(strcmp(rps_game("Paper", "Paper"), "Draw") == 0);     // Expect Draw
+    assert(strcmp(rps_game("Scissors", "Scissors"), "Draw") == 0); // Expect Draw
 }
 
 void test_case_sensitivity() {
